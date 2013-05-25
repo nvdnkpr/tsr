@@ -24,13 +24,12 @@ var shotRatio = require('../lib/shotRatio.js');
 
 exports['awesome'] = {
   setUp: function(done) {
-    // setup here
     done();
   },
   'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(shotRatio.awesome(), 'awesome', 'should be awesome.');
+    test.expect(2);
+    test.equal(shotRatio.TSR(10,10), 0.5, 'should be 0.5.');
+    test.equal(shotRatio.TSR([10,10], [10,10]), 0.5, 'should be 0.5.');
     test.done();
   },
 };
