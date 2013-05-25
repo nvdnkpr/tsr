@@ -1,4 +1,4 @@
-# shotRatio [![Build Status](https://secure.travis-ci.org/jacquestardie/shotratio.png?branch=master)](http://travis-ci.org/jacquestardie/shotratio)
+# shotRatio
 
 Predictive tools for Football (Soccer) leagues.
 
