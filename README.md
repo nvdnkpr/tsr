@@ -11,7 +11,22 @@ shotRatio.awesome(); // "awesome"
 ```
 
 ## Documentation
-_(Coming soon)_
+
+Leverages [Total Shots Ratio, Relative Shots Ratio](http://11tegen11.net/2012/12/01/introducing-the-relative-shots-rate/), and [QualCompTSR](http://jameswgrayson.wordpress.com/2013/02/20/a-primer-qualcomptsr/),
+
+**TSR**
+
+_The fraction of shots created by a team._
+
+```
+10 shots created / (10 shots created + 10 shots conceded) = 0.5
+```
+
+**RSR**
+_(Coming Soon)_
+
+**QualCompTSR**
+_(Coming Soon)_
 
 ## Examples
 _(Coming soon)_
