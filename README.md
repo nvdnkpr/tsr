@@ -1,13 +1,13 @@
-# shotRatio
+# shotratio
 
 Predictive tools for Football (Soccer) leagues.
 
 ## Getting Started
-Install the module with: `npm install shotRatio`
+Install the module with: `npm install shotratio`
 
 ```javascript
-var shotRatio = require('shotRatio');
-shotRatio.awesome(); // "awesome"
+var shotratio = require('shotRatio');
+shotratio.TSR(10, 10); // 0.5
 ```
 
 ## Documentation
@@ -22,14 +22,13 @@ _The fraction of shots created by a team._
 10 shots created / (10 shots created + 10 shots conceded) = 0.5
 ```
 
+Supports numbers `shotratio.TSR(10,10);`, and arrays `shotratio.TSR([5, 5], [10, 10]);`.
+
 **RSR**
 _(Coming Soon)_
 
 **QualCompTSR**
 _(Coming Soon)_
-
-## Examples
-_(Coming soon)_
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
