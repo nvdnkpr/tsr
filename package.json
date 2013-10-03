@@ -35,6 +35,6 @@
   },
   "keywords": [],
   "dependencies": {
-    "underscore": "~1.4.4"
+    "lodash": "~2.2.0"
   }
 }

@@ -27,8 +27,9 @@ exports['awesome'] = {
     done();
   },
   'no args': function(test) {
-    test.expect(2);
+    test.expect(3);
     test.equal(shotRatio.TSR(10,10), 0.5, 'should be 0.5.');
+    test.equal(shotRatio.TSR(10,30), 0.25, 'should be 0.25.');
     test.equal(shotRatio.TSR([10,10], [10,10]), 0.5, 'should be 0.5.');
     test.done();
   },
