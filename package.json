@@ -1,23 +1,23 @@
 {
-  "name": "shotratio",
-  "description": "Predictive tools for Football (Soccer) leagues.",
-  "version": "0.1.2",
-  "homepage": "https://github.com/jacquestardie/shotratio",
+  "name": "tsr",
+  "description": "Total Shots Ratio: a football analytics library.",
+  "version": "0.1.",
+  "homepage": "https://github.com/jacquestardie/tsr",
   "author": {
     "name": "jacquestardie",
-    "email": "jacquestardie@gmail.com"
+    "email": "hi@jacquestardie.org"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jacquestardie/shotratio.git"
+    "url": "git://github.com/jacquestardie/tsr.git"
   },
   "bugs": {
-    "url": "https://github.com/jacquestardie/shotratio/issues"
+    "url": "https://github.com/jacquestardie/tsr/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jacquestardie/shotratio/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jacquestardie/tsr/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/shotRatio",
