@@ -1,7 +1,7 @@
 {
   "name": "tsr",
   "description": "Total Shots Ratio: a football analytics library.",
-  "version": "0.1.",
+  "version": "0.1.0",
   "homepage": "https://github.com/jacquestardie/tsr",
   "author": {
     "name": "jacquestardie",
