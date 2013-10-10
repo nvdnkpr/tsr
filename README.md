@@ -2,6 +2,8 @@
 
 # shotratio
 
+[![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr)
+
 Predictive tools for Football (Soccer) leagues.
 
 ## Getting Started
