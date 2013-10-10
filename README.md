@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr)
+
 # shotratio
 
 Predictive tools for Football (Soccer) leagues.
@@ -39,3 +41,4 @@ _(Nothing yet)_
 ## License
 Copyright (c) 2013 jacquestardie  
 Licensed under the MIT license.
+
