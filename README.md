@@ -1,46 +1,30 @@
 [![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr)
 
-# shotratio
+# tsr
 
-[![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr)
+*Total Shots Ratio (tsr) is a means of expressing the number of shots taken by a team to the number of shots condeded. Theoretically, more successful teams should have higher TSR's.*
 
-Predictive tools for Football (Soccer) leagues.
+TSR is a very simple calculation. The number of shots created by a team is divided by the numbers of shot created plus the number of shots conceded.
 
-## Getting Started
-Install the module with: `npm install shotratio`
+`TSR = (taken / ( taken + conceded))`
+
+### Getting started
+
+**Install** the module with: `npm install tsr`
+
+**Require** the module in your js: `var tsr = require('tsr');`
+
+TSR takes two arguments: shots taken + shots conceded. You can pass in either numbers or arrays.
 
 ```javascript
-var shotratio = require('shotRatio');
-shotratio.TSR(10, 10); // 0.5
+tsr(taken, conceded);
+tsr(10, 10); // 0.5
+tsr(10, 30); // 0.25
+tsr([5,5], [15,15]); // 0.25
 ```
 
-## Documentation
+There is a fantastic overview of TSR and a few more complex alternatives over at [11tegen11](http://11tegen11.net/2012/12/01/introducing-the-relative-shots-rate/) that you might want to check out. Thanks [@11tegen11](http://twitter.com/11tegen11)
 
-Leverages [Total Shots Ratio, Relative Shots Ratio](http://11tegen11.net/2012/12/01/introducing-the-relative-shots-rate/), and [QualCompTSR](http://jameswgrayson.wordpress.com/2013/02/20/a-primer-qualcomptsr/),
-
-**TSR**
-
-_The fraction of shots created by a team._
-
-```
-10 shots created / (10 shots created + 10 shots conceded) = 0.5
-```
-
-Supports numbers `shotratio.TSR(10,10);`, and arrays `shotratio.TSR([5, 5], [10, 10]);`.
-
-**RSR**
-_(Coming Soon)_
-
-**QualCompTSR**
-_(Coming Soon)_
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
-
-## License
+### License
 Copyright (c) 2013 jacquestardie  
 Licensed under the MIT license.
-
