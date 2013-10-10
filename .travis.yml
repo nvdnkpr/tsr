@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-  - 0.10
+- 0.1
 before_script:
-  - npm install -g grunt-cli
+- npm install -g grunt-cli
+deploy:
+  api_key:
+    secure: Yp8urm5kxoSS5FiQLii96BPi8cBIZUn+ULBX0T5IXRWRjTvzLCdst0Yg/ZQ6lA59YVtQFEqwjm7pw8axlgFb7lH4N7jWsg98WhCuAjoI5AA/AFsyE6kvs9EtbglcpuZ1IDfwaz7dGTxiIDW2KoyRR/oLDPFzfZziv2W8MXZ7GuE=
+  email: hi@jacquestardie.org
+  provider: npm
