@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr)
+# tsr 
+[![NPM](https://nodei.co/npm/tsr.png?mini=true)](https://nodei.co/npm/tsr/)
 
-# tsr
+[![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr)
 
 *Total Shots Ratio (tsr) is a means of expressing the number of shots taken by a team to the number of shots condeded. Theoretically, more successful teams should have higher TSR's.*
 
