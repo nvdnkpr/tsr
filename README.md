@@ -1,4 +1,4 @@
-# tsr [![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr) [![NPM](https://nodei.co/npm/tsr.png?mini=true)](https://nodei.co/npm/tsr/)
+# tsr [![Build Status](https://travis-ci.org/jacquestardie/tsr.png?branch=master)](https://travis-ci.org/jacquestardie/tsr) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jacquestardie/tsr/trend.png)](https://bitdeli.com/free "Bitdeli Badge") [![NPM](https://nodei.co/npm/tsr.png?mini=true)](https://nodei.co/npm/tsr/)
 
 
 *Total Shots Ratio (tsr) is a means of expressing the number of shots taken by a team to the number of shots condeded. Theoretically, more successful teams should have higher TSR's.*
@@ -27,7 +27,3 @@ There is a fantastic overview of TSR and a few more complex alternatives over at
 ### License
 Copyright (c) 2013 jacquestardie  
 Licensed under the MIT license.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jacquestardie/tsr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
