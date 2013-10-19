@@ -29,3 +29,7 @@ There is a fantastic overview of TSR and a few more complex alternatives over at
 ### License
 Copyright (c) 2013 jacquestardie  
 Licensed under the MIT license.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jacquestardie/tsr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
